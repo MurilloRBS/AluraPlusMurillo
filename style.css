@@ -44,7 +44,7 @@
         text-decoration: none;
         margin-bottom: 1em;
     }
-    
+
     .botao__segundario {
         background-color: transparent;
         border: 2px solid var(--branco-principal);
@@ -65,7 +65,7 @@
     }
 
     .container__caixa{
-        margin: 6em;
+        margin: 0 6em;
     }
 
     .segundario__imagem {
@@ -74,7 +74,7 @@
 
     .segundario {
         align-items: center;
-        margin: 10em 0;
+        margin: 0 10em;
     }
 
     .descricao__titulo {
@@ -95,6 +95,7 @@
 
     .container__descricao {
         padding: 2em;
+        align-items: center;
     }
 
     .dispositivos__lista {
@@ -115,33 +116,31 @@
 
     .lista__item {
         font-size: 32px;
+        color: var(--branco-principal);
     }
 
     .rodape  {
         text-align: center;
-        margin: 0 3em;
-    }
-
-    .rodape__logo {
-       margin-bottom: 2em;
+        margin: 5em 3em;
     }
 
     .rodape__lista {
         display: flex;
         list-style-type: none;
         justify-content: center;
+        margin-top: 1em;
     }
 
-    .lista__link {
+    .lista__link a{
         color: var(--branco-principal);
-        margin-left: 3em;
+        margin-left: 1em;
         text-decoration: none;
     }
 
     .rodape__texto {
         color: var(--cinza-segundario);
         font-size: 14px;
-        margin: 2em 0;
+        margin: 1em 0;
     } 
 
     .lista__link a:hover {
